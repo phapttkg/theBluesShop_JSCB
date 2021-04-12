@@ -1,0 +1,472 @@
+body {
+    margin: 0 auto;
+    box-sizing: content-box;
+    font-size: 12pt;
+    margin-bottom: 0px;
+    background-color: rgb(237, 239, 243);
+
+
+}
+
+h5 {
+    color: blue;
+}
+
+h6 {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #19469d;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+strong {
+    color: #19469d;
+}
+
+
+/* Class margin */
+.mb {
+    margin-bottom: 30px;
+}
+
+.mt {
+    margin-top: 70px;
+}
+
+.ct {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: auto;
+}
+
+header .item {
+    position: relative;
+}
+
+/*banner*/
+header i {
+    color: aliceblue;
+}
+
+header i:hover {
+    color: blue;
+    opacity: 1;
+}
+
+.home_slider {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+/* Menu */
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    margin: 0 auto;
+    line-height: 70px;
+    top: 0px;
+    /* background: whitesmoke; */
+    box-shadow: grey 0px 1px;
+    opacity: 0.9;
+    background-image: url('ft.jpg');
+    background-repeat: no-repeat;
+}
+
+nav ul {
+    display: block;
+    margin: 0px;
+
+
+}
+
+nav ul li {
+    display: inline;
+    color: #19469d;
+    text-align: center;
+}
+
+nav ul li a {
+    margin-left: 50px;
+    font-weight: bolder;
+
+}
+
+nav ul li a img {
+    margin-left: 80px;
+}
+
+/* Home_slider */
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+}
+
+.owl-carousel .owl-nav button {
+    position: absolute;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    left: 0px;
+    top: 250px;
+    font-size: 3rem;
+    opacity: 0.6;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    font-size: 3rem;
+    opacity: 0.6;
+    right: 0px;
+    top: 250px;
+}
+
+.owl-theme .owl-dots {
+    text-align: right;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    list-style: square;
+    border-radius: 0;
+
+}
+
+/* Blue-box1 */
+
+section.Blue-box1 col-6 {
+    position: relative;
+}
+
+section.Blue-box1 img {
+
+    width: 100%;
+    /* border-radius: 50%; */
+}
+
+.text {
+    position: absolute;
+    top: 250px;
+    left: 215px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.text button {
+    font-size: 1rem;
+}
+
+
+
+
+.Blue-box1 .nd {
+    position: absolute;
+    top: 168px;
+    left: 220px;
+    text-align: center;
+}
+
+.Blue-box1 .nd p {
+    font-size: 22pt;
+    color: white;
+}
+
+
+/* Blue-box2 */
+
+section.Blue-box2 div.tab {
+    background-color: #f1f1f1;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+section.Blue-box2 div.tab button {
+    background-color: inherit;
+    float: left;
+    border: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+section.Blue-box2 div.tab button:hover {
+    background-color: #ddd;
+}
+
+section.Blue-box2 div.tab button.active {
+    background-color: #ccc;
+}
+
+section.Blue-box2 div.tab .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #bbb;
+}
+
+.produce img {
+    width: 100%;
+    height: auto;
+}
+
+.produce img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.produce {
+    position: relative;
+    border-radius: 2px;
+    align-items: center;
+}
+
+.price {
+    position: absolute;
+    bottom: 0px;
+    color: red;
+    font-size: 12pt;
+    box-sizing: unset;
+    background-color: #bbb;
+    opacity: 0.8;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.price a {
+    color: #19469d;
+    text-decoration: none;
+}
+
+/* Blue-box3 */
+#look,
+#1,
+#2,
+#3,
+#4 {
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+#look,
+#1,
+#2,
+#3,
+#4:hover {
+    opacity: 1;
+
+}
+
+col-4 {
+    padding-right: 0px;
+}
+
+col-4.chitiet {
+    background-color: azure;
+
+
+}
+
+
+.chitiet p {
+    color: #19469d;
+    margin-right: 57px;
+    text-align: center;
+    font-size: 12pt;
+    line-height: 25px;
+}
+
+.chitiet #detail {
+    color: #19469d;
+    margin-right: 57px;
+    text-align: center;
+    font-size: 11pt;
+    line-height: 20px;
+}
+
+/* Blue-box4 */
+section.Blue-box4 .dangky {
+    text-align: center;
+    margin: 20px 0px;
+    font-weight: 500;
+    padding: 50px 0px;
+    color: rgb(53, 56, 226);
+    line-height: 30px;
+    background-image: url('bgk.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+section.Blue-box4 input {
+    border-radius: 7px;
+    padding: 4px 15px;
+    border: 1px;
+    color: white;
+    background-color: rgb(192, 201, 224);
+
+}
+
+
+/* nút lên lại trang đầu (TOP) */
+
+#back-to-top:hover {
+    background: #1f1e22;
+}
+
+#back-to-top.show {
+    opacity: 1;
+    transition: ease-in-out .3s;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 10%;
+    right: 2%;
+    background: #19469d;
+    width: 2.5rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 90;
+    transition: ease-in-out .3s;
+    opacity: 0;
+    color: white
+}
+
+
+
+/* kienhe */
+
+
+
+section.Blue-lienhe {
+    background-color: #b7cce0;
+}
+
+section.Blue-lienhe h3 {
+    margin-top: 10px;
+    text-align: center;
+    color: #004993;
+}
+
+section.Blue-lienhe p {
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+section.Blue-lienhe form {
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+section.Blue-lienhe form input {
+    border-radius: 2px;
+}
+
+section.Blue-lienhe .kq {
+    margin: 10px 0px;
+    color: #1f1e22;
+}
+
+.capname {
+    color: royalblue;
+    background-color: turquoise;
+}
+
+
+
+
+/* Phần foter */
+footer {
+    line-height: 1.6;
+    background-image: url('ft.jpg');
+    background-repeat: no-repeat;
+
+
+}
+
+footer h6 {
+    text-align: left;
+    margin-bottom: 25px;
+
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+footer .row {
+    margin-top: 30px;
+}
+
+footer .static {
+    text-align: center;
+    color: reD;
+    margin-bottom: 25px;
+
+}
+
+footer .final {
+    background-color: #19469d;
+    padding: 1px 0 20px;
+
+}
+
+footer .final .row {
+    margin-bottom: 0px;
+    color: whitesmoke;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+footer .final .author {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer .final .pay {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 2px;
+}
+
+#top-up {
+    background: none;
+    font-size: 3em;
+    text-shadow: 0px 0px 5px #c0c0c0;
+    cursor: pointer;
+    position: fixed;
+    z-index: 9999;
+    color: #004993;
+    bottom: 20px;
+    right: 15px;
+    display: none;
+
+}
+
+
+
+/* About */
+.gioithieu {
+    justify-content: center;
+    margin-top: 70px;
+}
+
+/* Store */
+.store {
+    justify-content: center;
+    margin-top: 70px;
+}
