@@ -1,2 +1,5 @@
-# theBluesShop_JSCB
-Dự án The Blues Shop Assignment javascript cơ bản.
+# theBluesShop_JS
+-Cover web của The Blue Shop
+-JS thuần
+-HTML/CSS
+-Project môn học Web 
